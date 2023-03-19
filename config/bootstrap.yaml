@@ -1,0 +1,11 @@
+app:
+  name: sample-service
+  port: 9999
+  datasource:
+    url: http://www.bidu.com
+    username: root
+    password: root
+  nacos:
+    serverAddr: http://localhost:8848/nacos
+    namespaceId: 9093bd84-d6ef-4034-8c83-ca04bcdf78eb
+    groupName: DEFAULT_GROUP
